@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUST CSE 1/2 CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>CSE 1/2 CGPA Calculator</h2>
+        <!-- <label for="creditHours">Credit Hours:</label>
+        <input type="number" id="creditHours" min="0" step="0.01" required> -->
+
+        <label for="DS">Enter your GPA of DS (0-4.0):</label>
+        <input type="number" id="DS" min="0" max="4" step="0.01" required>
+
+        <label for="DS_lab">Enter your GPA of DS Lab (0-4.0):</label>
+        <input type="number" id="DS_lab" min="0" max="4" step="0.01" required>
+        
+        <label for="CAL">Enter your GPA of Calculus (0-4.0):</label>
+        <input type="number" id="CAL" min="0" max="4" step="0.01" required>
+
+        <label for="EEE">Enter your GPA of EEE (0-4.0):</label>
+        <input type="number" id="EEE" min="0" max="4" step="0.01" required>
+
+        <label for="EEE_lab">Enter your GPA of EEE Lab (0-4.0):</label>
+        <input type="number" id="EEE_lab" min="0" max="4" step="0.01" required>
+
+        <label for="ETH">Enter your GPA of Ethics (0-4.0):</label>
+        <input type="number" id="ETH" min="0" max="4" step="0.01" required>
+
+        <label for="IPE_GRAPH">Enter your GPA of IPE Graphics (0-4.0):</label>
+        <input type="number" id="IPE_GRAPH" min="0" max="4" step="0.01" required>
+        
+        <label for="IPE_WORK">Enter your GPA of IPE Workshop (0-4.0):</label>
+        <input type="number" id="IPE_WORK" min="0" max="4" step="0.01" required>
+
+        <label for="PHY">Enter your GPA of Physics (0-4.0):</label>
+        <input type="number" id="PHY" min="0" max="4" step="0.01" required>
+
+        <label for="PRO">Enter your GPA of Project 150 (0-4.0):</label>
+        <input type="number" id="PRO" min="0" max="4" step="0.01" required>
+
+        <button onclick="calculateCGPA()">Calculate CGPA</button>
+        <div id="result"></div>
+        <div id="error"></div>
+    </div>
+</body>
+</html>
